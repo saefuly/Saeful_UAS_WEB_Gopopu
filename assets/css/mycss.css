@@ -1,0 +1,256 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.main-content {
+	background: #53346D;
+  	background-image: linear-gradient(to bottom, #53346D, #000000);
+	background: -webkit-linear-gradient(to top, #53346D, #000000);
+	background: -moz-linear-gradient(to top, #53346D, #000000);
+	background: linear-gradient(to top, #53346D, #000000); 
+	min-height: 100vh;
+}
+
+.header-logo {
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.content {
+	width: 700px;
+	height: auto;
+	margin: 0 auto;
+	color: white;
+	padding-bottom: 30px;
+}
+
+.container {
+	overflow: hidden;
+	width: 100% !important;
+	margin: 0 auto;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-left-force {
+	text-align: left !important;
+}
+
+.form1 {
+	padding-top: 20px;
+	text-align: center;
+	width: 300px;
+	float: left;
+}
+
+.form2 {
+	padding-top: 20px;
+	text-align: center;
+	width: 300px;
+	float: right;
+}
+
+.bottom {
+	margin: 0 auto;
+	width: 400px;
+	margin-top: 20px;
+}
+
+input[type=text] {
+	font-family: 'Roboto', sans-serif;
+	padding: 7px 15px;
+	width: 90%;
+	font-size: 1em;
+	background: transparent;
+	border: 1px solid #DCDCDC;
+	color: white;
+	border-radius: 5px;
+	margin-bottom: 7px; 
+}
+
+input[type=password] {
+	font-family: 'Roboto', sans-serif;
+	padding: 7px 15px;
+	width: 90%;
+	font-size: 1em;
+	background: transparent;
+	border: 1px solid #DCDCDC;
+	color: white;
+	border-radius: 5px;
+	margin-bottom: 7px; 
+}
+
+input[type=email] {
+	font-family: 'Roboto', sans-serif;
+	padding: 7px 15px;
+	width: 90%;
+	font-size: 1em;
+	background: transparent;
+	border: 1px solid #DCDCDC;
+	color: white;
+	border-radius: 5px;
+	margin-bottom: 7px; 
+}
+
+textarea {
+	font-family: 'Roboto', sans-serif;
+	padding: 7px 15px;
+	width: 90%;
+	font-size: 1em;
+	background: transparent;
+	border: 1px solid #DCDCDC;
+	color: white;
+	border-radius: 5px;
+	margin-bottom: 7px; 
+}
+
+select {
+	font-family: 'Roboto', sans-serif;
+	background: transparent;
+	width: 100%;
+	border: 1px solid #DCDCDC;
+	color: #DCDCDC;
+	font-size: 1em;
+	padding: 7px 15px;
+	border-radius: 5px;
+	margin-bottom: 7px; 
+}
+
+option {
+	color: black;
+	background: transparent;
+}
+
+button {
+	font-family: 'Roboto', sans-serif;
+	padding: 7px 15px;
+	width: 130px;
+	background: transparent;
+	border-radius: 5px;
+	color: white;
+	font-size: 1em;
+	border: 1px solid white;
+}
+
+button:hover {
+	font-family: 'Roboto', sans-serif;
+	padding: 7px 15px;
+	width: 130px;
+	background: white;
+	border-radius: 5px;
+	color: black;
+	font-size: 1em;
+	border: 1px solid white;
+}
+
+.wow {
+	font-family: 'Roboto', sans-serif;
+	padding: 7px 15px;
+	width: 150px;
+	background: transparent;
+	border-radius: 5px;
+	color: white;
+	font-size: 1em;
+	border: 1px solid white;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.text-white {
+	color: #fff !important;
+	padding: 7px 15px;
+	border: 1px solid #DCDCDC;
+	border-radius: 5px;
+}
+
+tr.table-data {
+	border: 1px solid #DCDCDC;
+}
+
+.mytable th {
+	padding-bottom: 2% !important;
+    padding-top: 2% !important;
+    border-bottom: 1px solid white !important;
+}
+
+.items {
+	background-color: #C0C0C0;
+}
+
+.padding-vertical-medium {
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+/*LOGIN PAGE*/
+.login-container {
+	margin: 0 auto;
+    width: 400px;
+    padding: 30px;
+    background-color: rgba(154, 154, 154, 0.26);
+    height: 230px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+label {
+	padding-bottom: 10px;
+}
+
+.margin-top-m {
+	margin-top: 10px;
+}
+
+.form-group {
+	padding: 7px 20px;
+    width: auto;
+    text-align: center;
+}
+
+.text-white {
+	color: #fff;
+}
+
+.info-admin {
+	position: absolute;
+    right: 0;
+    text-align: right;
+    color: white;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+/*MAIN DASHBOARD*/
+.box-content {
+	width: 200px;
+	height: 200px;
+	background-color: rgba(154, 154, 154, 0.26);
+	padding: 10px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.mid {
+	float: left;
+	margin-left: 20px; 
+}
