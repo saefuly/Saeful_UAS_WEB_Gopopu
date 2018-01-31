@@ -1,7 +1,8 @@
 <div class="content">
     <h3 class="text-center" style="margin-bottom: 15px;"><?php echo $judul; ?> </h3>
     <div class="text-right text-white" style="margin-bottom: 15px;">
-        <?php echo anchor('user/input','<i class="ion-plus-round"></i> INPUT DATA USER', array('class' => 'text-white'));?>
+        <?php echo anchor('user/input','<i class="ion-plus-round"></i> DATA USER', array('class' => 'text-white'));?>
+        <?php echo anchor('user/report','<i class="ionicons ion-printer"></i> PRINT DATA', array('class' => 'text-white'));?>
     </div>
     
 

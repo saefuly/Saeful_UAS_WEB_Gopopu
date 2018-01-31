@@ -17,7 +17,7 @@
     .normal{
       width: 150px;
     }
- 
+
     table{
       border-collapse: collapse;
       font-family: arial;
@@ -49,12 +49,12 @@
 	  	<thead>
 	  		<tr>
 	  			<th class="short">#</th>
-	  			<th class="normal">Username</th>
-	  			<th class="normal">NIM</th>
-          <th class="normal">Nama</th>
+	  			<th class="normal">NIK</th>
+	  			<th class="normal">Nama</th>
           <th class="normal">Email</th>
           <th class="normal">JK</th>
-	  			<th class="normal">Kota</th>
+          <th class="normal">Agama</th>
+          <th class="normal">Kota</th>
 	  		</tr>
 	  	</thead>
 	  	<tbody>
@@ -62,12 +62,12 @@
 	  		<?php foreach($user as $u): ?>
 	  		  <tr>
 	  			<td><?php echo $no; ?></td>
-	  			<td><?php echo $u->username; ?></td>
-	  			<td><?php echo $u->nim; ?></td>
+	  			<td><?php echo $u->nik; ?></td>
           <td><?php echo $u->nama; ?></td>
           <td><?php echo $u->email; ?></td>
-          <td><?php echo $u->jenis_kelamin; ?></td>
-	  			<td><?php echo $u->kota_asal; ?></td>
+          <td><?php if ($u->jenis_kelamin == 'L'){ echo "Laki-laki"; } else { echo "Perempuan"; } ?></td>
+          <td><?php echo $u->agama; ?></td>
+          <td><?php echo $u->kota_asal; ?></td>
 	  		  </tr>
 	  		<?php $no++; ?>
 	  		<?php endforeach; ?>

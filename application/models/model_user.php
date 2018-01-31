@@ -9,8 +9,8 @@ class Model_user extends CI_Model{
         return $user;
     }
     
-    function getUser($username){
-        return $this->db->get_where('user',array('username'=>$username));
+    function getUser($nik){
+        return $this->db->get_where('user',array('nik'=>$nik));
     }
 }
 ?>

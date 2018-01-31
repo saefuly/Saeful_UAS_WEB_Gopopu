@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.main-content {
+	background: #53346D;
+  	background-image: linear-gradient(to bottom, #53346D, #000000);
+	background: -webkit-linear-gradient(to top, #53346D, #000000);
+	background: -moz-linear-gradient(to top, #53346D, #000000);
+	background: linear-gradient(to top, #53346D, #000000); 
+	min-height: 100vh;
+}
+
+.header-logo {
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.judul {
+	margin-bottom: 25px;
+	color: white;
+}
+
+.login-container {
+	margin: 0 auto;
+    width: 100%;
+    padding: 30px;
+    background-color: rgba(154, 154, 154, 0.26);
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.profile-admin{
+	padding: 10px;
+	padding-top: 15px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.main-menu {
+	margin-top: 20px;
+}
+
+.main-menu li {
+	border-bottom: 1px solid #000;
+	padding: 10px;
+	display: block;
+}
+
+.main-menu a {
+	color: black;
+	text-decoration: none;
+}
+
+.main-menu a:hover {
+	color: grey;
+	text-decoration: none;
+}
+
+/*
+KELAS KOMPOSIT HELPER
+*/
+.text-white {
+	color: #fff;
+}
+
+.margin-top-m {
+	margin-top: 10px;
+}
+
+

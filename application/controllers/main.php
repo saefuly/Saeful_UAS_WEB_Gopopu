@@ -15,7 +15,7 @@ class Main extends CI_Controller{
         $data['user'] = $this->model_user->list_user()->result();
         $data['jumlah_user'] = $this->model_user->list_user()->num_rows();
 
-        $this->load->view('templates/header');
+        $this->load->view('templates/main-header');
         $this->load->view('main/homepage',$data);
         $this->load->view('templates/footer');
     }

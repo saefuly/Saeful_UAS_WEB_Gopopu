@@ -1,5 +1,5 @@
 <div class="content">
-	<h3 class="text-center" style="margin-bottom: 15px;"><?php echo $judul; ?></h3>
+	<h3 class="text-center judul"><?php echo $judul; ?></h3>
 	<?php
 		if(!empty($this->session->flashdata('message'))){
 	?>	
@@ -11,21 +11,21 @@
 	<?php
 		}
 	?>
-	<div class="login-container">
-		<?php echo form_open('login/aksi_login'); ?>
-			<div class="form-group">
-				<label class="text-center">Username</label>
-				<input type="text" name="username" class="margin-top-m" placeholder="Admin" required>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4 login-container">
+				<?php echo form_open('login/aksi_login'); ?>
+					<div class="form-group">
+					    <label class="text-white">Username</label>
+					    <input type="text" name="username" class="form-control" placeholder="Username" required>
+					</div>
+					<div class="form-group">
+					    <label class="text-white">Password</label>
+					    <input type="password" name="password" class="form-control" placeholder="Password" required>
+					</div>
+					<button type="submit" class="btn btn-success btn-block margin-top-m">Login</button>
+				</form>
 			</div>
-			
-			<div class="form-group">
-				<label class="text-center">Password</label>
-				<input type="password" name="password" class="margin-top-m" placeholder="*********" required>
-			</div>
-
-			<div class="form-group">
-				<button type="submit">LOG IN</button>
-			</div>
-		</form>
+		</div>
 	</div>
 </div>
